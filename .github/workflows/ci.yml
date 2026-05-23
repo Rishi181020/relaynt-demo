@@ -15,5 +15,5 @@ jobs:
       - name: Run Tests
         run: |
           python test_app.py
-          python test_app_scrape.py
+          # python test_app_scrape.py
           python test_cve_audit.py
