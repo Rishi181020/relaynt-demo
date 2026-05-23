@@ -12,6 +12,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install PyJWT
       - name: Run Tests
         run: |
           # python test_app.py
