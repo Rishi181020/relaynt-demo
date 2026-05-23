@@ -1,5 +1,5 @@
 def test_health():
-    assert 1 + 1 == 20
+    assert 1 + 1 == 2
 
 if __name__ == "__main__":
     test_health()
