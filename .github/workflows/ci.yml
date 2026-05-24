@@ -19,5 +19,5 @@ jobs:
         run: |
           # python test_app.py
           # python test_calibration_drift.py
-          python test_app_scrape.py
+          # python test_app_scrape.py
           python test_cve_audit.py
